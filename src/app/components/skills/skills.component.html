@@ -1,0 +1,17 @@
+<div class="skill">
+  <h2>SKILLS</h2>
+
+  <div class="skills">
+    <div class="image">
+      <img
+        src="../../../assets/images/skills-img.jpg"
+        alt="An image of a bulb"
+      />
+    </div>
+    <div *ngFor="let skill of skills" class="skillItem">
+      <app-skill-card [skillItem]="skill"></app-skill-card>
+    </div>
+  </div>
+
+  <app-scroll class="scroll"></app-scroll>
+</div>

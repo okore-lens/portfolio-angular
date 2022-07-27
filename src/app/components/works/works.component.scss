@@ -1,0 +1,36 @@
+.work {
+  margin: 10px auto;
+  width: 80%;
+  position: relative;
+  padding: 10px;
+  color: #fff;
+  h2 {
+    text-align: center;
+  }
+
+  .image {
+    img {
+      width: 496px;
+      height: 641px;
+      border-radius: 80px;
+    }
+  }
+  .text {
+    position: absolute;
+    float: right;
+    left: 50%;
+    top: 10%;
+    width: 50%;
+
+    button {
+      background-color: #042b79;
+      color: #ffffff;
+      padding: 5px;
+      font-size: 11px;
+      border-radius: 8px;
+    }
+  }
+  .scroll {
+    margin: 8px;
+  }
+}

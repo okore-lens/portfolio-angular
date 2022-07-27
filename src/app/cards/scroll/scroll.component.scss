@@ -1,0 +1,14 @@
+.scroll {
+  color: grey;
+  width: max-content;
+  display: flex;
+  text-align: center;
+  i {
+    margin: 2px;
+    font-size: 18px;
+  }
+  p {
+    margin: 2px;
+    font-size: 12px;
+  }
+}
