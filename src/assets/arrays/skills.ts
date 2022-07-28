@@ -8,36 +8,51 @@ export const skills: Skills[] = [
   {
     id: 1,
     percentage: 30,
-    skillName: 'Solidity',
+    skillName: "Solidity",
   },
   {
     id: 2,
     percentage: 90,
-    skillName: 'Javascript',
+    skillName: "Javascript",
   },
   {
     id: 3,
     percentage: 85,
-    skillName: 'HTML',
+    skillName: "HTML",
   },
   {
     id: 4,
     percentage: 60,
-    skillName: 'CSS',
+    skillName: "CSS",
   },
   {
     id: 5,
     percentage: 80,
-    skillName: 'React',
+    skillName: "React",
   },
   {
     id: 6,
     percentage: 40,
-    skillName: 'Angular',
+    skillName: "Angular",
   },
   {
     id: 7,
     percentage: 40,
-    skillName: 'SCSS',
+    skillName: "SCSS",
+  },
+  {
+    id: 8,
+    percentage: 50,
+    skillName: "SCSS",
+  },
+  {
+    id: 9,
+    percentage: 40,
+    skillName: "Laravel",
+  },
+  {
+    id: 10,
+    percentage: 40,
+    skillName: "Node",
   },
 ];

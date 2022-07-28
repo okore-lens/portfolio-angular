@@ -1,15 +1,33 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from "@angular/core";
+import { works, Works } from "src/assets/arrays/works";
 
 @Component({
-  selector: 'app-works',
-  templateUrl: './works.component.html',
-  styleUrls: ['./works.component.scss']
+  selector: "app-works",
+  templateUrl: "./works.component.html",
+  styleUrls: ["./works.component.scss"],
 })
 export class WorksComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
+  ngOnInit(): void {}
+  works = [...works];
+  count: number = 1;
+  maxCount = works.length;
+  width: number = 100;
 
-  ngOnInit(): void {
+  prevHandler() {
+    this.count > 1 ? this.count-- : this.count;
+    // console.log(this.count);
   }
-
+  nextHandler() {
+    this.count < this.maxCount ? this.count++ : this.count;
+    // console.log(this.count);
+  }
+  breadcrumbHandler() {
+    console.log("Clicked");
+  }
+  widthHandler() {
+    this.width = (this.count / this.maxCount) * 100;
+    return this.width + "%";
+  }
 }

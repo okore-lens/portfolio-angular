@@ -1,34 +1,16 @@
 .hero-page {
-  .landing-page {
-    background-color: rgb(129, 116, 116);
-    background-image: url("../assets/images/bg-image.jpg") !important;
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
+  h2 {
+    text-align: center;
+
     color: #fff;
-    position: relative;
-    .text {
-      width: max-content;
-      margin: auto;
-      position: absolute;
-      top: 40%;
-      left: 10%;
-      .media-links {
-        i {
-          color: grey;
-          margin: 4px;
-        }
-      }
-    }
-    .scroll {
-      position: absolute;
-      top: 94%;
-      left: 84%;
-    }
+  }
+  .about {
+    margin: 10px 0;
   }
   .skill {
-    // background-color: crimson;
-    height: 770px;
-    // padding: 10px;
+    margin: 25px 0;
+  }
+  .works {
+    margin: 10px 0;
   }
 }

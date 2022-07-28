@@ -1,0 +1,39 @@
+.landing-page {
+  background-color: rgb(129, 116, 116);
+  background-image: url("../../../assets/images/bg-image.jpg") !important;
+  height: 100vh;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  position: relative;
+  .text {
+    width: max-content;
+    margin: auto;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    .media-links {
+      i {
+        color: grey;
+        margin: 4px;
+      }
+    }
+  }
+  .scroll {
+    position: absolute;
+    top: 94%;
+    left: 84%;
+  }
+}
+@media screen and (max-width: 570px) {
+  .landing-page {
+    color: #ffee00;
+    .text {
+      .media-links {
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

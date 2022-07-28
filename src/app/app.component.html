@@ -1,26 +1,18 @@
 <div class="hero-page">
-  <!-- A landing view where we have a background image with some text on top of it -->
-
   <div class="landing-page">
-    <div class="text">
-      <h2>OKORE LENS</h2>
-      <p>Front-End Web Developer</p>
-      <div class="media-links">
-        <a href="#"> <i class="fa fa-github" aria-hidden="true"></i></a>
-        <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href="#"> <i class="fa fa-linkedin" aria-hidden="true"></i></a>
-        <a href="#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
-        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      </div>
-    </div>
-    <app-scroll class="scroll"></app-scroll>
+    <app-landing-page></app-landing-page>
   </div>
-  <!-- About Section...contains an image{left} with some text{right} has a button to download my cv  -->
-  <app-about></app-about>
-  <!-- Skills Section...contains an image{right} with some illustrations{left}  -->
+  <div class="about">
+    <app-about></app-about>
+  </div>
   <div class="skill">
-    <app-skills class="skill"></app-skills>
+    <app-skills></app-skills>
   </div>
-  <!-- Works Section...cosntains an image{left} with some text{right} has a slide behavior and a link to every project highlited  -->
-  <app-works></app-works>
+  <h2>WORKS</h2>
+  <div class="works">
+    <app-works></app-works>
+  </div>
+  <div class="footer">
+    <app-footer></app-footer>
+  </div>
 </div>

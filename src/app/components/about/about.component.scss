@@ -19,7 +19,6 @@
     float: right;
     left: 50%;
     top: 10%;
-    width: 50%;
 
     button {
       background-color: #042b79;
@@ -31,5 +30,57 @@
   }
   .scroll {
     margin: 8px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .about {
+    .image {
+      img {
+        width: 350px;
+        height: 452px;
+      }
+    }
+    .text {
+      font-size: 13px;
+      left: 53%;
+      top: 10%;
+      // width: 50%;
+    }
+  }
+}
+@media screen and (max-width: 860px) {
+  .about {
+    .image {
+      img {
+        width: 300px;
+        height: 388px;
+      }
+    }
+    .text {
+      font-size: 10px;
+      left: 53%;
+      top: 10%;
+      // width: 50%;
+    }
+  }
+}
+@media screen and (max-width: 765px) {
+  .about {
+    .image {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img {
+        width: 300px;
+        height: 388px;
+      }
+    }
+    .text {
+      position: unset;
+      float: right;
+      left: 50%;
+      top: 10%;
+    }
   }
 }

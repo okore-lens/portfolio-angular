@@ -1,159 +1,87 @@
-.work {
-  margin: 10px auto;
-  width: 80%;
-  position: relative;
-  padding: 10px;
-  color: #fff;
-  h2 {
-    text-align: center;
-  }
-
-  .image {
+.works {
+  .position {
+    // display: flex;
     position: relative;
-    .img-container {
-      img {
-        width: 98%;
-        max-height: 600px;
-        object-fit: cover;
-        object-position: center center;
-        border-radius: 80px;
-        margin: 5px;
-      }
-      .Info {
-        color: #e3e3e3;
-        font-size: 16px;
-        padding: 10px 14px;
-        position: absolute;
-        bottom: 10px;
-        width: 100%;
-        text-align: center;
-      }
-    }
-  }
-  .text {
-    // position: absolute;
-    // float: right;
-    // left: 50%;
-    // top: 10%;
-    // width: 50%;
+    .controls {
+      width: 90%;
+      // background-color: darkkhaki;
+      font-size: 13px;
 
-    button {
-      background-color: #042b79;
-      color: #ffffff;
-      padding: 5px;
-      font-size: 11px;
-      text-align: center;
+      position: absolute;
+      color: #5634d1;
+      left: 5%;
+      right: 5%;
+      top: 40%;
+      i {
+        margin: 4px;
+      }
+      .prev {
+        width: max-content;
+
+        // background-color: darkblue;
+        &:hover {
+          cursor: pointer;
+          color: #616161;
+        }
+      }
+      .next {
+        width: max-content;
+        position: absolute;
+        float: right;
+        right: 0;
+        &:hover {
+          cursor: pointer;
+          color: #616161;
+        }
+      }
     }
-  }
-  .scroll {
-    margin: 8px;
+    // display: flex;
+    // overflow: hidden;
+    width: 100%;
+
+    .work {
+      min-width: 90%;
+      display: none;
+
+      .breadcrumb {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        margin: 0 auto;
+        .count {
+          font-size: 10px;
+          margin-right: 5px;
+          color: #5634d1;
+        }
+        .breadcrumbItems {
+          margin: 0 auto;
+          width: 100%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+
+          .breadcrumbItem {
+            background-color: #616161;
+            border-radius: 40px;
+            color: #ffffff;
+            margin: 3px;
+            height: 4px;
+            font-size: 11px;
+            text-align: center;
+            &:hover {
+              background-color: #5634d1;
+              cursor: pointer;
+            }
+          }
+          .active {
+            background-color: #793904;
+          }
+        }
+      }
+    }
+    .work-display {
+      display: block;
+    }
   }
 }
-
-// * {
-//   box-sizing: border-box;
-// }
-
-// /* Slideshow container */
-// .slideshow-container {
-//   max-width: 1000px;
-//   position: relative;
-//   margin: auto;
-// }
-
-// /* Make the images invisible by default */
-// .Containers {
-//   display: none;
-// }
-
-// /* forward & Back buttons */
-// .Back,
-// .forward {
-//   cursor: pointer;
-//   position: absolute;
-//   top: 48%;
-//   width: auto;
-//   margin-top: -23px;
-//   padding: 17px;
-//   color: grey;
-//   font-weight: bold;
-//   font-size: 19px;
-//   transition: 0.4s ease;
-//   border-radius: 0 5px 5px 0;
-//   user-select: none;
-// }
-
-// /* Place the "forward button" to the right */
-// .forward {
-//   right: 0;
-//   border-radius: 4px 0 0 4px;
-// }
-
-// /*when the user hovers,add a black background with some little opacity */
-// .Back:hover,
-// .forward:hover {
-//   background-color: rgba(0, 0, 0, 0.8);
-// }
-
-// /* Caption Info */
-// .Info {
-//   color: #e3e3e3;
-//   font-size: 16px;
-//   padding: 10px 14px;
-//   position: absolute;
-//   bottom: 10px;
-//   width: 100%;
-//   text-align: center;
-// }
-
-// /* Worknumbering (1/3 etc) */
-// .MessageInfo {
-//   color: #f2f2f3;
-//   font-size: 14px;
-//   padding: 10px 14px;
-//   position: absolute;
-//   top: 0;
-// }
-
-// /* The circles or bullets and indicators */
-// .dots {
-//   cursor: pointer;
-//   height: 16px;
-//   width: 16px;
-//   margin: 0 3px;
-//   background-color: #acc;
-//   border-radius: 50%;
-//   display: inline-block;
-//   transition: background-color 0.5s ease;
-// }
-
-// .enable,
-// .dots:hover {
-//   background-color: #717161;
-// }
-
-// /* Faint animation */
-// .fade {
-//   -webkit-animation-name: fade;
-//   -webkit-animation-duration: 1.4s;
-//   animation-name: fade;
-//   animation-duration: 1.4s;
-// }
-
-// @-webkit-keyframes fade {
-//   from {
-//     opacity: 0.5;
-//   }
-//   to {
-//     opacity: 2;
-//   }
-// }
-
-// @keyframes fade {
-//   from {
-//     opacity: 0.5;
-//   }
-//   to {
-//     opacity: 2;
-//   }
-// }
