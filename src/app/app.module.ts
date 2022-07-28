@@ -10,6 +10,7 @@ import { SkillCardComponent } from "./cards/skill-card/skill-card.component";
 import { FooterComponent } from './components/footer/footer.component';
 import { WorkCardComponent } from './cards/work-card/work-card.component';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
+import { ContactsComponent } from './components/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
     FooterComponent,
     WorkCardComponent,
     LandingPageComponent,
+    ContactsComponent,
   ],
   imports: [BrowserModule],
   providers: [],

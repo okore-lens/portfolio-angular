@@ -16,12 +16,12 @@ export class WorksComponent implements OnInit {
   width: number = 100;
 
   prevHandler() {
-    this.count > 1 ? this.count-- : this.count;
-    // console.log(this.count);
+    this.count--;
+    this.count < 1 ? (this.count = this.maxCount) : this.count;
   }
   nextHandler() {
-    this.count < this.maxCount ? this.count++ : this.count;
-    // console.log(this.count);
+    this.count++;
+    this.count > this.maxCount ? (this.count = 1) : this.count;
   }
   breadcrumbHandler() {
     console.log("Clicked");

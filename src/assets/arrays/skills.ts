@@ -43,7 +43,7 @@ export const skills: Skills[] = [
   {
     id: 8,
     percentage: 50,
-    skillName: "SCSS",
+    skillName: "Bootstrap",
   },
   {
     id: 9,
