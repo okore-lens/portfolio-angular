@@ -14,6 +14,6 @@ export class WorkCardComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    console.log(this.workItem.text);
+    // console.log(this.workItem.text);
   }
 }

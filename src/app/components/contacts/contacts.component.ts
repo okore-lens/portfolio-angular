@@ -7,9 +7,9 @@ import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
   styleUrls: ["./contacts.component.scss"],
 })
 export class ContactsComponent implements OnInit {
-  name: string = "";
-  email: string = "";
-  message: string = "";
+  // name: string = "";
+  // email: string = "";
+  // message: string = "";
 
   constructor() {}
 
@@ -26,18 +26,14 @@ export class ContactsComponent implements OnInit {
       )
       .then(
         (result: EmailJSResponseStatus) => {
-          console.log(result.text);
+          alert("Email sent successfully");
+          let value = document.querySelector("input")?.value;
+          console.log(value);
+          value = "";
         },
         (error) => {
           console.log(error.text);
         }
       );
   }
-
-  // submitHandler() {
-  //   console.log(this.name, this.email, this.message);
-  //   this.name = "";
-  //   this.email = "";
-  //   this.message = "";
-  // }
 }
