@@ -4,7 +4,7 @@
   height: 100vh;
   background-size: cover;
   background-position: center center;
-  color: #fff;
+  color: grey;
   position: relative;
   .text {
     width: max-content;
@@ -15,10 +15,11 @@
     .media-links {
       i {
         font-size: 20px;
-        color: grey;
         margin: 7px;
+        color: #ffee00;
+
         &:hover {
-          color: #ffee00;
+          color: #fff;
         }
       }
     }

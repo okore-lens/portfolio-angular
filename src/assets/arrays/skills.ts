@@ -7,52 +7,54 @@ export interface Skills {
 export const skills: Skills[] = [
   {
     id: 1,
-    percentage: 30,
-    skillName: "Solidity",
-  },
-  {
-    id: 2,
-    percentage: 90,
+    percentage: 80,
     skillName: "Javascript",
   },
   {
-    id: 3,
-    percentage: 85,
+    id: 2,
+    percentage: 80,
     skillName: "HTML",
   },
   {
-    id: 4,
-    percentage: 60,
+    id: 3,
+    percentage: 70,
     skillName: "CSS",
   },
   {
+    id: 4,
+    percentage: 50,
+    skillName: "Bootstap",
+  },
+
+  {
     id: 5,
+    percentage: 80,
+    skillName: "Figma",
+  },
+
+  {
+    id: 6,
+    percentage: 80,
+    skillName: "Adobe XD",
+  },
+  {
+    id: 7,
     percentage: 80,
     skillName: "React",
   },
   {
-    id: 6,
+    id: 8,
     percentage: 40,
     skillName: "Angular",
   },
   {
     id: 7,
-    percentage: 40,
-    skillName: "SCSS",
+    percentage: 20,
+    skillName: "Solidity",
   },
   {
-    id: 8,
-    percentage: 50,
-    skillName: "Bootstrap",
-  },
-  {
-    id: 9,
-    percentage: 40,
+    id: 7,
+    percentage: 20,
     skillName: "Laravel",
-  },
-  {
-    id: 10,
-    percentage: 40,
-    skillName: "Node",
   },
 ];

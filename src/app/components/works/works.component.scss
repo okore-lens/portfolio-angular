@@ -3,15 +3,14 @@
     // display: flex;
     position: relative;
     .controls {
-      width: 90%;
+      width: 80%;
       // background-color: darkkhaki;
       font-size: 20px;
 
       position: absolute;
       // color: #ffee00;
       color: #793904;
-      left: 5%;
-      right: 5%;
+      left: 10%;
       top: 40%;
       i {
         margin: 4px;
@@ -41,14 +40,14 @@
     width: 100%;
 
     .work {
-      min-width: 90%;
+      // min-width: 90%;
       display: none;
 
       .breadcrumb {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 70%;
+        width: 30%;
         margin: 0 auto;
         .count {
           font-size: 10px;

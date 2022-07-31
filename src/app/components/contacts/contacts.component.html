@@ -1,13 +1,37 @@
 <div class="background">
-  <div class="contact-plate">
+  <form class="contact-plate" (submit)="submitHandler($event)">
     <h2>Contact Me</h2>
     <p>I will get back to you shortly</p>
+
     <div class="fields">
-      <input placeholder="Name" />
-      <input placeholder="Email" />
-      <textarea placeholder="Message"></textarea>
+      <input placeholder="Name" type="text" name="from_name" />
+
+      <input placeholder="Email" type="email" name="reply_to" />
+
+      <textarea placeholder="Message" name="message"></textarea>
     </div>
-    <button>Send</button>
-    <p class="additional-text">you may also chat me at +254 71460 1042</p>
-  </div>
+    <button type="submit">Send</button>
+    <p class="additional-text">
+      you may also chat me on
+      <i class="fa fa-whatsapp" aria-hidden="true"></i> at +254 71460 1042
+    </p>
+  </form>
 </div>
+<!-- <form class="contact-plate">
+  <h2>Contact Me</h2>
+  <p>I will get back to you shortly</p>
+  <div class="fields">
+    <input type="text" placeholder="Name" name="first" [(ngModel)]="name" />
+    <input placeholder="Email" [(ngModel)]="email" name="mail" />
+    <textarea
+      placeholder="Message"
+      name="message"
+      [(ngModel)]="message"
+    ></textarea>
+  </div>
+  <button (click)="submitHandler()">Send</button>
+  <p class="additional-text">
+    you may also chat me on
+    <i class="fa fa-whatsapp" aria-hidden="true"></i> at +254 71460 1042
+  </p>$event
+</form> -->

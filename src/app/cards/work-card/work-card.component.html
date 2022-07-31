@@ -1,18 +1,23 @@
 <div class="work">
   <div class="image">
     <div class="img-container">
-      <img src="{{ workItem.image }}" alt="An image of a bulb" />
+      <a href="{{ workItem.urlWebsite }}" target="_blank">
+        <img src="{{ workItem.image }}" alt="{{ workItem.name }}" />
+      </a>
     </div>
   </div>
   <div class="text">
     <div class="details">
+      <h2>{{ workItem.name }}</h2>
       <p>
         {{ workItem.text }}
       </p>
     </div>
     <div class="project-links">
-      <a href="#" class="website">website</a>
-      <a href="#" class="github">
+      <a href="{{ workItem.urlWebsite }}" target="_blank" class="website">{{
+        workItem.name
+      }}</a>
+      <a href="{{ workItem.urlGithub }}" target="_blank" class="github">
         <i class="fa fa-github" aria-hidden="true"></i>
       </a>
     </div>

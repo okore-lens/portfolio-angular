@@ -1,19 +1,28 @@
 .work {
   margin: 10px auto;
-  width: 80%;
+  width: 70%;
   position: relative;
   padding: 10px;
   color: #fff;
 
   .image {
     .img-container {
+      // overflow: hidden;
       img {
+        opacity: 0.6;
+        border: 2px solid #793904;
         width: 45%;
         max-height: 500px;
         object-fit: cover;
         object-position: center center;
-        border-radius: 80px;
+        border-radius: 30px;
         margin: 5px;
+        transition: transform 0.8s; /* Animation */
+        &:hover {
+          transform: scale(1.1);
+          cursor: pointer;
+          opacity: 1;
+        }
       }
     }
   }
@@ -21,11 +30,22 @@
     position: absolute;
     float: right;
     left: 50%;
-    top: 20%;
+    top: 10%;
     padding: 5px;
     .details {
       width: 100%;
-      text-align: center;
+      // text-align: center;
+      h2 {
+        margin: 4px 0;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+          "Lucida Sans", Arial, sans-serif;
+        color: #793904;
+      }
+
+      p {
+        margin: 4px 0;
+        font-size: 14px;
+      }
     }
 
     .project-links {
@@ -34,9 +54,11 @@
       justify-content: center;
       align-items: center;
       a {
-        text-decoration: none;
         color: #793904;
         margin: 5px;
+        &:hover {
+          color: #e61d1d;
+        }
       }
       .website {
         font-size: 15px;
@@ -45,7 +67,33 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
+  .work {
+    .text {
+      .details {
+        width: 80%;
+        margin: 0 auto;
+        h2 {
+          margin: 1px 0;
+          font-size: 14px;
+        }
+        p {
+          font-size: 10px;
+        }
+      }
+      .project-links {
+        a {
+          margin: 4px;
+        }
+        .website {
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
   .work {
     .image {
       .img-container {
@@ -69,7 +117,13 @@
       top: 20%;
 
       .details {
-        font-size: 13px;
+        h2 {
+          margin: 1px 0;
+          font-size: 16px;
+        }
+        p {
+          font-size: 12px;
+        }
       }
 
       .project-links {
@@ -77,11 +131,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        a {
-          text-decoration: none;
-          color: #793904;
-          margin: 5px;
-        }
         .website {
           font-size: 15px;
         }

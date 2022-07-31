@@ -11,7 +11,7 @@
     img {
       width: 496px;
       height: 641px;
-      border-radius: 105px;
+      border-radius: 30px;
     }
   }
   .text {
@@ -21,11 +21,15 @@
     top: 10%;
 
     button {
-      background-color: #042b79;
+      background-color: #d47b32;
       color: #ffffff;
       padding: 5px;
       font-size: 11px;
       border-radius: 8px;
+      &:hover {
+        background-color: #ffffff;
+        color: #d47b32;
+      }
     }
   }
   .scroll {

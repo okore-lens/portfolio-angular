@@ -25,6 +25,7 @@ export class WorksComponent implements OnInit {
   }
   breadcrumbHandler() {
     console.log("Clicked");
+    this.count++;
   }
   widthHandler() {
     this.width = (this.count / this.maxCount) * 100;
