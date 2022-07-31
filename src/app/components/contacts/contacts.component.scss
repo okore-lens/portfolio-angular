@@ -63,6 +63,9 @@
       background-color: #d47b32;
       color: #fff;
       margin: 20px;
+      &:hover {
+        background-color: #000000;
+      }
     }
     .additional-text {
       font-size: 12px;

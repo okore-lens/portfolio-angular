@@ -2,6 +2,7 @@
   <h2>ABOUT LENS</h2>
   <div class="image">
     <img src="../assets/images/about-img.jpg" alt="An image of a bulb" />
+    <app-info [link]="imageLink" class="info"></app-info>
   </div>
   <div class="text">
     <p>
@@ -20,7 +21,9 @@
       I am delighted to be in this field and be able to see how I influence
       people's lives differently.
     </p>
-    <button>DOWNLOAD MY RESUME</button>
+    <a href="../../../assets/documents/Resume.pdf" download>
+      <button>DOWNLOAD MY RESUME</button>
+    </a>
   </div>
   <app-scroll class="scroll"></app-scroll>
 </div>

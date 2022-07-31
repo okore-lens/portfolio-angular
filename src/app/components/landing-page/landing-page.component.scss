@@ -24,6 +24,12 @@
       }
     }
   }
+  .info {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
   .scroll {
     position: absolute;
     top: 94%;

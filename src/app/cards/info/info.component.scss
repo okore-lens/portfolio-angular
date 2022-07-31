@@ -1,0 +1,28 @@
+.info {
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    width: max-content;
+    text-align: center;
+    i {
+      margin: 2px;
+      font-size: 18px;
+    }
+    .hidden {
+      display: none;
+
+      p {
+        margin: 2px;
+        font-size: 12px;
+      }
+    }
+    &:hover {
+      cursor: pointer;
+      color: #a04008;
+      .hidden {
+        display: block;
+      }
+    }
+  }
+}

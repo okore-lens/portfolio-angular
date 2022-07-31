@@ -12,6 +12,7 @@ import { WorkCardComponent } from "./cards/work-card/work-card.component";
 import { LandingPageComponent } from "./components/landing-page/landing-page.component";
 import { ContactsComponent } from "./components/contacts/contacts.component";
 import { FormsModule } from "@angular/forms";
+import { InfoComponent } from './cards/info/info.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { FormsModule } from "@angular/forms";
     WorkCardComponent,
     LandingPageComponent,
     ContactsComponent,
+    InfoComponent,
   ],
   imports: [BrowserModule, FormsModule],
   providers: [],

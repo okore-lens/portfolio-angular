@@ -11,6 +11,13 @@
   background-size: cover;
   border-radius: 40px;
 
+  .info {
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+  }
+
   h2 {
     text-align: center;
   }

@@ -8,10 +8,18 @@
     text-align: center;
   }
   .image {
+    width: 50%;
+    position: relative;
     img {
       width: 496px;
       height: 641px;
       border-radius: 30px;
+    }
+    .info {
+      position: absolute;
+      top: 90%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
   }
   .text {
