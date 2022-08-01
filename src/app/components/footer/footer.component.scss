@@ -33,3 +33,36 @@
     }
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    font-size: 12px;
+    color: #793904;
+
+    .line {
+      height: 1px;
+    }
+
+    .media-links {
+      i {
+        font-size: 14px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 650px) {
+  .footer {
+    font-size: 10px;
+    color: #793904;
+
+    .line {
+      height: 1px;
+    }
+
+    .media-links {
+      i {
+        font-size: 12xpx;
+      }
+    }
+  }
+}

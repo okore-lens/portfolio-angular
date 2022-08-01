@@ -5,7 +5,7 @@
     justify-content: space-around;
     text-align: center;
     color: #8a8a8a;
-    margin: 20px;
+    margin: 15px;
 
     .circular-chart {
       display: block;
@@ -30,7 +30,7 @@
     .percentage {
       fill: #ffffff;
       font-family: sans-serif;
-      font-size: 0.8em;
+      font-size: 0.6em;
       text-anchor: middle;
     }
   }
@@ -38,5 +38,14 @@
 @keyframes progress {
   0% {
     stroke-dasharray: 0 100;
+  }
+}
+
+@media screen and (max-width: 668px) {
+  .wrapper {
+    width: 90px;
+    height: 90px;
+    font-size: 12px;
+    margin: 0 0 10px 0;
   }
 }
