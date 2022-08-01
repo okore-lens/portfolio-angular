@@ -1,8 +1,46 @@
 export interface Skills {
-  id: number;
+  id: number | string;
   percentage: number;
   skillName: string;
 }
+
+// let skill: { id: number | string; skillName: string; percentage: number }[] =
+//   [];
+
+// export async function fetchSkills() {
+//   const response = await fetch(
+//     "https://portfolio-2661e-default-rtdb.firebaseio.com/skills.json"
+//   );
+
+//   if (!response.ok) {
+//     throw new Error("Something went wrong");
+//   }
+//   const responseData = await response.json();
+//   console.log(responseData[1]);
+
+//   let index: number = 0;
+//   responseData.map((data: number) => {
+//     index + 1;
+//     console.log(skill);
+//     skill.push({
+//       id: data,
+//       skillName: responseData[index].skillName,
+//       percentage: responseData[index].percentage,
+//     });
+
+//     console.log(skill);
+//   });
+
+// for (const key in responseData) {
+//   skill.push({
+//     id: key,
+//     skillName: responseData[key].skillName,
+//     percentage: responseData[key].percentage,
+//   });
+// }
+// }
+
+// export const skills: Skills[] = [...skill];
 
 export const skills: Skills[] = [
   {

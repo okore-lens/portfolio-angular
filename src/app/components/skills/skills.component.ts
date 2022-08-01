@@ -13,5 +13,8 @@ export class SkillsComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    // fetchSkills();
+    // console.log(this.skills);
+  }
 }
