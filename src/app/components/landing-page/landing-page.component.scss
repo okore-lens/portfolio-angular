@@ -36,12 +36,13 @@
     left: 84%;
   }
 }
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 700px) {
   .landing-page {
     color: #ffee00;
     .text {
       .media-links {
         i {
+          font-size: 15px;
           color: #fff;
         }
       }

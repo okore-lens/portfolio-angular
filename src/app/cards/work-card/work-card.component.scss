@@ -7,7 +7,6 @@
 
   .image {
     .img-container {
-      // overflow: hidden;
       img {
         opacity: 0.6;
         border: 2px solid #793904;
@@ -17,7 +16,7 @@
         object-position: center center;
         border-radius: 30px;
         margin: 5px;
-        transition: transform 0.8s; /* Animation */
+        transition: transform 0.8s;
         &:hover {
           transform: scale(1.1);
           cursor: pointer;
@@ -34,7 +33,7 @@
     padding: 5px;
     .details {
       width: 100%;
-      // text-align: center;
+
       h2 {
         margin: 4px 0;
         font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -49,7 +48,6 @@
     }
 
     .project-links {
-      margin: 0px auto;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -95,6 +93,7 @@
 
 @media screen and (max-width: 1100px) {
   .work {
+    margin: 0 auto;
     .image {
       .img-container {
         display: flex;

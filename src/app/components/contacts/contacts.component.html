@@ -4,11 +4,25 @@
     <p>I will get back to you shortly</p>
 
     <div class="fields">
-      <input placeholder="Name" id="input" type="text" name="from_name" />
+      <input
+        placeholder="Name"
+        [(ngModel)]="name"
+        type="text"
+        name="from_name"
+      />
 
-      <input placeholder="Email" type="email" name="reply_to" />
+      <input
+        placeholder="Email"
+        [(ngModel)]="email"
+        type="email"
+        name="reply_to"
+      />
 
-      <textarea placeholder="Message" name="message"></textarea>
+      <textarea
+        placeholder="Message"
+        [(ngModel)]="message"
+        name="message"
+      ></textarea>
     </div>
     <button type="submit">Send</button>
     <p class="additional-text">

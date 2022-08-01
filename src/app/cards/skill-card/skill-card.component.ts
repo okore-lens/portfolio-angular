@@ -13,7 +13,6 @@ export class SkillCardComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    // console.log(this.skillItem);
     this.dashArray = `${this.skillItem.percentage},100`;
   }
 }

@@ -21,7 +21,6 @@
             <div
               *ngFor="let work of works"
               class="breadcrumbItem"
-              (onclick)="breadcrumbHandler()"
               [ngClass]="[work.id === this.count ? 'active' : '']"
               [ngStyle]="{ width: widthHandler() }"
             ></div>

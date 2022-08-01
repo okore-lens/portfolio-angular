@@ -1,14 +1,11 @@
 .works {
   .position {
-    // display: flex;
     position: relative;
     .controls {
       width: 80%;
-      // background-color: darkkhaki;
       font-size: 20px;
 
       position: absolute;
-      // color: #ffee00;
       color: #793904;
       left: 10%;
       top: 40%;
@@ -17,8 +14,6 @@
       }
       .prev {
         width: max-content;
-
-        // background-color: darkblue;
         &:hover {
           cursor: pointer;
           color: #616161;
@@ -35,12 +30,9 @@
         }
       }
     }
-    // display: flex;
-    // overflow: hidden;
     width: 100%;
 
     .work {
-      // min-width: 90%;
       display: none;
 
       .breadcrumb {
@@ -51,8 +43,6 @@
         margin: 0 auto;
         .count {
           font-size: 10px;
-          // margin-right: 5px;
-          // color: #5634d1;
           color: #ffee00;
         }
         .breadcrumbItems {
