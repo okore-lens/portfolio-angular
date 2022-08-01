@@ -10,6 +10,7 @@ export class ContactsComponent implements OnInit {
   name: string = "";
   email: string = "";
   message: string = "";
+  imageLink: string = "https://www.instagram.com/p/CYvuImwKz-r/";
 
   constructor() {}
 

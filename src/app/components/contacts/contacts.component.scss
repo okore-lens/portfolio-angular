@@ -6,6 +6,13 @@
   min-height: 600px;
   background-size: cover;
   position: relative;
+  .info {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    background-color: #000000;
+    border-radius: 3px;
+  }
   .contact-plate {
     margin: 10px auto;
     background-color: #b9b6b3;
